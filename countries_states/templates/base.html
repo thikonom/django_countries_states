@@ -1,0 +1,13 @@
+<html>
+    <head>
+        <title>Django Countries States</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+        {% include "state_js.html" %}
+    </head>
+    <body>
+        <form action="." method="post">{% csrf_token %}
+            {{ form.as_p }}
+        <input type="submit" value="Submit">
+        </form>
+    </body>
+</html>

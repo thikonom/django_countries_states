@@ -1,0 +1,4 @@
+{# Used to populate the dropdown state field via ajax. #}
+{% for state in states %}
+	<option value="{{state.0}}"{% if forloop.first %} selected="selected"{% endif %}>{{state.1}}</option>
+{% endfor %}
