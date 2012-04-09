@@ -14,6 +14,7 @@ _State is just a generic name, for some countries this is equivalent to Province
 Installation
 ---------
 
++ Copy the app to your projects root
 + Add 'countries_states' to your INSTALLED APPS
 + Add to your urls.py:
     + from countries_states.urls import urlpatterns as csurls
