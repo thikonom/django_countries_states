@@ -19,4 +19,4 @@ Installation
 + Add to your urls.py:
     + from countries_states.urls import urlpatterns as csurls
     + urlpatterns += csurls
-+ Head to http://127.0.0.1:8000/countries_states/ 
++ Head to `http://127.0.0.1:8000/countries_states/`
